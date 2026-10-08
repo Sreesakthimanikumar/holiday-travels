@@ -1,0 +1,88 @@
+body{
+    background-color: beige;
+    font-family: cursive;
+    margin: 0%;
+}
+header{
+background-color: rgb(5, 90, 248);
+color: white;
+text-align: center;
+height: 100px;
+padding-top:10px;
+}
+.one{
+    background-color: rgb(19, 58, 131);
+    width: 200px;
+    height:480px;
+    padding: 50px;
+
+}
+.one a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 60px;
+}
+.cards{
+    position: absolute;
+    top:200px;
+    left:550px;
+ display: grid;
+ grid-template-columns: 1fr;
+ gap: 40px;
+ 
+}
+.card1{
+border-radius: 20px;
+border: 10px;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height: 200px;
+width: 300px;
+text-align: center;
+background-color: antiquewhite;
+transition: 0.5s;
+}
+.card2{
+border-radius: 20px;
+border: 10px;
+padding: 10px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+height:200px;
+text-align: center;
+width: 300px;
+background-color: antiquewhite;
+transition: 0.5s;
+
+}
+.card1:hover{
+    tranition:transform(1.05);
+    background-color:lightgray;
+}
+.card1 button{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.card1 button:{
+    background-color: rgb(103, 65, 138);
+}
+.card2:hover{
+    tranition:transform(1.05);
+    background-color:lightgray;
+}
+.card2 button{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    margin-left: 50px;
+}
+.card2 button:hover{
+    background-color: rgb(103, 65, 138);
+}
+footer{
+    color:grey;
+    text-align: center;
+    margin-top: 20px;
+}

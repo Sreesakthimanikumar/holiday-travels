@@ -1,0 +1,71 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+margin: 0;
+background-color:whitesmoke
+
+}
+.hero{
+    background-color:blueviolet;
+    padding:20px;
+    height: 60px;
+}
+.hero h1{
+    color: white;
+
+}
+.head{
+    display: flex;
+    gap: 30px;
+    justify-content: right;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    position: absolute;
+    right: 00px;
+    top:50px
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    transition: 0.5s;
+    padding: 100px;
+}
+.card{
+    background-color: lightgray;
+    border-radius: 30px;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 10px 20px 30px;
+}
+.card button{
+    background-color: green;
+    margin-left: 60px;
+color: white;
+margin-left: 200px;
+}
+.card h1{
+    text-align: center;
+    color: black;
+}
+.bot{
+background-color: white;
+color: black;
+text-align: center;
+border-bottom-right-radius: 30px;
+border-bottom-left-radius: 30px;
+}
+.bot button{
+    background-color: blueviolet;
+    color: white;
+    margin-right: 140px;
+    cursor: pointer;
+}
+.bot button:hover{
+    background-color:violet;
+}
+footer{
+    color: gray;
+    text-align: center;
+}

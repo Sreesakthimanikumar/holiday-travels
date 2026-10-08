@@ -1,0 +1,59 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+    margin:0
+}
+.portfolio{
+    width:90%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+}
+
+header{
+    text-align: center;
+    border-bottom: 2px solid wheat;
+    padding-bottom: 20px;
+}
+header h1{
+    margin-bottom: 5px;
+}
+.profile{
+    display: flex;
+    gap: 40px;
+    padding: 40px 0;
+}
+.photo img{
+    width:150px;
+    height:360px;
+    border-radius:10px;
+}
+
+.about h2{
+    color:black;
+}
+.projects{
+    display: flex;
+    gap: 20px;
+}
+.project{
+    border: 1px solid wheat;
+    padding: 20px;
+    width:200px;
+    box-shadow: 0 5px 100px;
+}
+.project:hover{
+    background-color: #f5f5f5;
+}
+.contact{
+    margin-top: 40px;
+    border-top: 2px solid wheat;
+    padding-top: 30px;
+}
+footer{
+    text-align: center;
+margin-top: 40px;
+padding: 15px;
+background-color: black;
+color:white;
+}
